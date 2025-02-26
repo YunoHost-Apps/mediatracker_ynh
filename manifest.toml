@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "mediatracker"
 name = "MediaTracker"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Media tracker for movies, tv shows, video games, books and audiobooks"
+description.fr = "Suivi des médias pour les films, jeux vidéo, livres..."
 
 version = "0.2.11~ynh1"
 
@@ -70,7 +70,7 @@ ram.runtime = "50M"
     main.default = 7481
 
     [resources.apt]
-    packages = "mariadb-server"
+  packages = "postgresql"
 
     [resources.database]
-    type = "mysql"
+    type = "postgresql"

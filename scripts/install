@@ -40,10 +40,10 @@ ynh_config_add_nginx
 # Create a dedicated systemd config
 ynh_config_add_systemd
 
-yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Media tracker" --log="/var/log/$app/$app.log"
 
 #=================================================
-# INSTALL DODOC
+# INSTALL THE APP
 #=================================================
 ynh_script_progression "Installing the app..."
 

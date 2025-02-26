@@ -42,9 +42,6 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://example.com>
-- Dokumentasi pengguna resmi: <https://yunohost.org/apps>
-- Dokumentasi admin resmi: <https://yunohost.org/packaging_apps>
 - Depot kode aplikasi hulu: <https://github.com/bonukai/MediaTracker>
 - Gudang YunoHost: <https://apps.yunohost.org/app/mediatracker>
 - Laporkan bug: <https://github.com/YunoHost-Apps/mediatracker_ynh/issues>

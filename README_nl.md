@@ -38,7 +38,7 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## Schermafdrukken
 
-![Schermafdrukken van MediaTracker](./doc/screenshots/example.jpg)
+![Schermafdrukken van MediaTracker](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 

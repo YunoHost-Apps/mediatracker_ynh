@@ -38,7 +38,7 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## 截图
 
-![MediaTracker 的截图](./doc/screenshots/example.jpg)
+![MediaTracker 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 

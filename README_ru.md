@@ -38,7 +38,7 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## Снимки экрана
 
-![Снимок экрана MediaTracker](./doc/screenshots/example.jpg)
+![Снимок экрана MediaTracker](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 

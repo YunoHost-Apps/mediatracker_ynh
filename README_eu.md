@@ -38,7 +38,7 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## Pantaila-argazkiak
 
-![MediaTracker(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
+![MediaTracker(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 

@@ -38,7 +38,7 @@ Plateforme auto-hébergée pour le suivi des films, des séries télévisées, d
 
 ## Captures d’écran
 
-![Capture d’écran de MediaTracker](./doc/screenshots/example.jpg)
+![Capture d’écran de MediaTracker](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

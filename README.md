@@ -38,7 +38,7 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## Screenshots
 
-![Screenshot of MediaTracker](./doc/screenshots/example.jpg)
+![Screenshot of MediaTracker](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 

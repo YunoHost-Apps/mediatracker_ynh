@@ -12,11 +12,8 @@ version = "0.2.11~ynh1"
 maintainers = ["eric_G"]
 
 [upstream]
-license = "free"
-website = "https://example.com"
+license = "GPL-3.0"
 demo = "https://mediatracker.app/"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/bonukai/MediaTracker"
 
 [integration]
@@ -55,7 +52,7 @@ ram.runtime = "50M"
     url = "https://github.com/bonukai/MediaTracker/archive/refs/tags/v0.2.11.tar.gz"
     sha256 = "f7304183c5038512f630708f3a1b9efa13c881a28fa75433327a4d8edeca7ee5"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -67,10 +64,9 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
-    main.default = 7481
 
     [resources.apt]
-  packages = "postgresql"
+    packages = "postgresql"
 
     [resources.database]
     type = "postgresql"

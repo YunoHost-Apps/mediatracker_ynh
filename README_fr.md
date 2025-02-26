@@ -42,9 +42,6 @@ Plateforme auto-hébergée pour le suivi des films, des séries télévisées, d
 
 ## Documentations et ressources
 
-- Site officiel de l’app : <https://example.com>
-- Documentation officielle utilisateur : <https://yunohost.org/apps>
-- Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 - Dépôt de code officiel de l’app : <https://github.com/bonukai/MediaTracker>
 - YunoHost Store : <https://apps.yunohost.org/app/mediatracker>
 - Signaler un bug : <https://github.com/YunoHost-Apps/mediatracker_ynh/issues>

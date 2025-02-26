@@ -42,9 +42,6 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## Documentación e recursos
 
-- Web oficial da app: <https://example.com>
-- Documentación oficial para usuarias: <https://yunohost.org/apps>
-- Documentación oficial para admin: <https://yunohost.org/packaging_apps>
 - Repositorio de orixe do código: <https://github.com/bonukai/MediaTracker>
 - Tenda YunoHost: <https://apps.yunohost.org/app/mediatracker>
 - Informar dun problema: <https://github.com/YunoHost-Apps/mediatracker_ynh/issues>

@@ -18,6 +18,8 @@ It shall NOT be edited by hand.
 
 ## Overview
 
+Self hosted platform for tracking movies, tv shows, video games, books and audiobooks, highly inspired by flox
+
 ### Features
 
 - notifications

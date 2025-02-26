@@ -38,7 +38,7 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada MediaTracker](./doc/screenshots/example.jpg)
+![Tangkapan Layar pada MediaTracker](./doc/screenshots/screenshot.png)
 
 ## Dokumentasi dan sumber daya
 

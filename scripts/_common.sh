@@ -5,3 +5,5 @@
 #=================================================
 
 nodejs_version="20"
+
+timezone=$(cat /etc/timezone)

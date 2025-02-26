@@ -9,8 +9,10 @@ Group=__APP__
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__NODEJS_DIR__/npm run start -p __PORT__
+ExecStart=__NODEJS_DIR__/npm run start
 Restart=on-failure
+StandardOutput=append:/var/log/__APP__/__APP__.log
+StandardError=inherit
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline

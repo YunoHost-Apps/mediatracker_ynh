@@ -32,7 +32,7 @@ Plateforme auto-hébergée pour le suivi des films, des séries télévisées, d
 - import de goodreads
 
 
-**Version incluse :** 0.2.11~ynh1
+**Version incluse :** 0.2.11~ynh2
 
 **Démo :** <https://mediatracker.app/>
 

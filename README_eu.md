@@ -32,7 +32,7 @@ Self hosted platform for tracking movies, tv shows, video games, books and audio
 - import from goodreads
 
 
-**Paketatutako bertsioa:** 0.2.11~ynh1
+**Paketatutako bertsioa:** 0.2.11~ynh2
 
 **Demoa:** <https://mediatracker.app/>
 

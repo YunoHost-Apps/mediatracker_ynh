@@ -7,7 +7,7 @@ name = "MediaTracker"
 description.en = "Media tracker for movies, tv shows, video games, books and audiobooks"
 description.fr = "Suivi des médias pour les films, jeux vidéo, livres"
 
-version = "0.2.11~ynh1"
+version = "0.2.11~ynh2"
 
 maintainers = ["eric_G"]
 

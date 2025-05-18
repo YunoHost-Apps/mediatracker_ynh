@@ -6,4 +6,4 @@
 
 nodejs_version="22"
 
-timezone=$(cat /etc/timezone)
+timezone=$(timedatectl show --value --property=Timezone)

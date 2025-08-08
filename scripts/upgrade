@@ -37,8 +37,14 @@ ynh_config_add --template=".env" --destination="$install_dir/.env"
 ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
- 	ynh_hide_warnings ynh_exec_as_app npm install
+	export NODE_ENV=production
+ 	ynh_hide_warnings ynh_exec_as_app npm ci
  	ynh_hide_warnings ynh_exec_as_app npm run build
+popd
+
+pushd "$install_dir"/server
+	export NODE_ENV=production
+ 	ynh_hide_warnings ynh_exec_as_app npm ci --omit=dev
 popd
 
 #Remove unneeded files

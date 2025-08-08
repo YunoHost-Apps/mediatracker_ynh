@@ -72,7 +72,7 @@ ynh_safe_rm "$install_dir"/client/node_modules
 ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-ynh_systemctl --service="$app" --action="start" --wait_until="Aucune mise à jour disponible"
+ynh_systemctl --service="$app" --action="start" --wait_until="Aucune mise à jour disponible" --timeout=120
 
 #=================================================
 # END OF SCRIPT

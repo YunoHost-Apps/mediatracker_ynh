@@ -48,9 +48,23 @@ yunohost service add "$app" --description="Media tracker" --log="/var/log/$app/$
 ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
- 	ynh_hide_warnings ynh_exec_as_app npm install
+	export NODE_ENV=production
+ 	ynh_hide_warnings ynh_exec_as_app npm ci
  	ynh_hide_warnings ynh_exec_as_app npm run build
 popd
+
+pushd "$install_dir"/server
+	export NODE_ENV=production
+ 	ynh_hide_warnings ynh_exec_as_app npm ci --omit=dev
+popd
+
+#Remove unneeded files
+ynh_safe_rm "$install_dir"/docker
+ynh_safe_rm "$install_dir"/.vscode
+ynh_safe_rm "$install_dir"/docker-reverse-proxy
+ynh_safe_rm "$install_dir"/.github
+ynh_safe_rm "$install_dir"/.npm
+ynh_safe_rm "$install_dir"/client/node_modules
 
 #=================================================
 # START SYSTEMD SERVICE
@@ -58,7 +72,7 @@ popd
 ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-ynh_systemctl --service="$app" --action="start" --wait_until="Aucune mise à jour disponible"
+ynh_systemctl --service="$app" --action="start" --wait_until="Aucune mise à jour disponible" --timeout=120
 
 #=================================================
 # END OF SCRIPT

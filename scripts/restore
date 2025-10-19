@@ -48,7 +48,7 @@ yunohost service add "$app" --description="Media tracker" --log="/var/log/$app/$
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
-ynh_systemctl --service="$app" --action="start" --log_path="systemd"
+ynh_systemctl --service="$app" --action="start" --wait_until="Aucune mise à jour disponible" --timeout=120
 
 ynh_systemctl --service=nginx --action=reload
 
